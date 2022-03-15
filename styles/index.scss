@@ -1,0 +1,57 @@
+// SCREEN STYLES
+.screen {
+    font-family: "Poppins", sans-serif;
+    color: #030512;
+}
+
+// LOADING STYLES
+.loading {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;      
+        align-items: center;
+        margin-top: 20%;
+    }   
+    &__title {
+        font-weight: 600;
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    &__bar {
+        width: 20%;
+        display: flex;
+        background-color: grey;
+        &--1 {
+            background-color: green;
+            width: 0%;            
+            height: 30px;
+        }
+    }
+    &__percent {
+        font-weight: 600;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+}
+
+// BUTTON STYLES
+.button {
+    &__wrapper {
+        display: flex;
+        flex-direction: column;      
+        align-items: center;
+    }
+    &__start {
+        padding: 20px;
+        background-color: green;
+        border: solid 2px black;
+        font-weight: 600;
+        font-size: 18px;
+        color: black;
+    }
+}
+
+// HIDDEN CLASS
+.hidden {
+    visibility: hidden;
+}
